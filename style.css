@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth&display=swap");
+
+/* box select full */
+* {
+	padding: 0;
+	margin: 0;
+    position: relative;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+    position: relative;
+    background: #ffffff;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    flex: none;
+    order: 0;
+}
+
+
+.first_name {
+    width: 500px;
+    height: 218px;
+    font-family: 'Amaranth';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 180px;
+    line-height: 218px;
+    text-align: right;
+}
+
+.with_totoro {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.last_name {
+    width: 694px;
+    height: 218px;
+    font-family: 'Amaranth';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 180px;
+    line-height: 218px;
+}
+
+.totoro{
+    width: 500px;
+    height: 240px;
+}
+
+.japan_characters{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    flex: none;
+    /* order: 1; */
+    flex-grow: 0;
+    margin: -64px 0px;
+}
+
+.japanese {
+    width: 261px;
+    height: 97px;
+    font-family: 'Amaranth';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 97px;
+}
+
+
+.characters {
+    width: 865px;
+    height: 308px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.fvh {
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    }
+    
+.scroll {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 70px 0px 0px 0px;
+    gap: 78px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.video {
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    aspect-ratio: 16/9;
+}
+
+.work_link{
+    width: 93px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 48px;
+
+}
+
+.scroll_text{
+    width: 130px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 40px 0px;
+    gap: 95px;
+    isolation: isolate;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.about_heading {
+    width: 462px;
+    height: 218px;
+    font-family: 'Amaranth';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 180px;
+    line-height: 218px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.about_desc {
+    width: 844px;
+    height: 552px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 0;
+    font-family: Inter;
+}
+
+/* .walk_1 {
+    height: 200%;
+    width: 200%;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+} */
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(0, 187, 255);
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 634px;
+    isolation: isolate;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.work_heading {
+    width: 477px;
+    height: 218px;
+    font-family: 'Amaranth';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 180px;
+    line-height: 218px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.work_desc {
+    width: 240px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 0;
+}
+
+.poster {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 71px;
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
+
+.work_1 {
+    width: 281.03px;
+    height: 400px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.work_2 {
+    width: 600px;
+    height: 854px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 482px;
+    isolation: isolate;
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+}
+
+.tl_heading {
+    width: 573px;
+    height: 218px;
+    font-family: 'Amaranth';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 180px;
+    line-height: 218px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.tl_desc {
+    width: 119px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 0;
+}
+
+.years{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+    flex: none;
+    order: 8;
+    flex-grow: 0;
+}
+
+.y1 .y2 .y3 .y4 .y5 .y6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+hr{
+    border-top: 3px solid rgb(0, 0, 0);
+}
+
+.info {
+    visibility: hidden;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+    color: #000000;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
